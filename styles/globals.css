@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+  --color-primary: #6D319F;
+  --color-primary-alta: #212e48;
+}
+
+
+html {
+    @apply scroll-smooth overflow-x-hidden overflow-y-scroll
+    
+}
+
+body {
+    font-family: Roboto;
+    background-color: #fff;
+    overflow: hidden;
+    color:  #42495b;
+}
+
+
+@layer components {
+
+    * {
+      @apply transition-all duration-300;
+      box-sizing: border-box;
+     }
+
+
+    .container {
+        @apply px-3 md:px-12 mx-auto;
+    }
+
+    .bg-primary {
+        @apply bg-gradient-to-r from-purple-900 to-purple-400 text-white;
+    }
+
+
+}
+
+
+
+
+    

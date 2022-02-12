@@ -1,0 +1,126 @@
+    .bubble {
+            border-radius: 100%;
+            height: 200px;
+            width:  200px;
+            position: absolute;
+    }
+
+    .bubble:after {
+        content: '';
+        box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+        animation: bubble 25s linear infinite, sideWays 10s ease-in-out infinite alternate;
+        height: 200px;
+        width:  200px;
+        position: absolute;
+        border-radius: 100%;
+    }
+
+    .bubble:before {
+        content: '';
+        box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+        height: 200px;
+        width:  200px;
+        position: absolute;
+        border-radius: 100%;
+    }
+
+
+
+
+    .x1 {
+        animation: bubble 25s linear infinite, sideWays 10s ease-in-out infinite alternate;
+        left:  5%;
+        top: 5%;
+        transform:  scale(0.6);
+    }
+
+
+    .x3 {
+        animation: bubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+        right:  5%;
+        top: 80%;
+        transform:  scale(0.4);
+    }
+
+    .x3 {
+        animation: bubble 28s linear infinite, sideWays 10s ease-in-out infinite alternate;
+        right:  10%;
+        bottom: 40%;
+        transform:  scale(0.7);
+    }
+
+    .x4 {
+        animation: bubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+        left:  0%;
+        top: 0;
+        transform:  scale(0.3);
+    }
+
+    .x5 {
+        animation: bubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+        left:  30%;
+        top: 50%;
+        transform:  scale(0.5);
+    }
+
+    .x6 {
+        animation: bubble 21s linear infinite, sideWays 10s ease-in-out infinite alternate;
+        right:  50%;
+        top: 0;
+        transform:  scale(0.8);
+    }
+
+    .x7 {
+        animation: bubble 20s linear infinite, sideWays 10s ease-in-out infinite alternate;
+        left:  65%;
+        top: 70%;
+        transform:  scale(0.4);
+    }
+
+    .x8 {
+        animation: bubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+        left:  80%;
+        top: 10%;
+        transform:  scale(0.6);
+    }
+
+    .x9 {
+        animation: bubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+        left:  90%;
+        top: 50%;
+        transform:  scale(0.6);
+    }
+
+
+    .x10 {
+        animation: bubble 26s linear infinite, sideWays 5s ease-in-out infinite alternate;
+        left:  80%;
+        top: 80%;
+        transform:  scale(0.3);
+    }
+
+
+
+
+
+    @keyframes bubble {
+        0%{
+            margin-top:  1000px;
+        }
+        100%{
+            margin-top:  -1000px;
+        }
+    }
+
+    @keyframes sideWays {
+        0%{
+            left:  0px;
+        }
+        100%{
+            margin-left: 50px;
+        }
+    }
+
+
+
+
