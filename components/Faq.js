@@ -16,8 +16,8 @@ const Faq = () => {
 
 
   return (
-     <section className="py-12 relative overflow-hidden" id="faq" >
-         <div className="container space-y-10 relative">
+     <section className="py-12 relative overflow-hidden " id="faq" >
+         <div className="container space-y-10 relative z-30">
 
            <header className="md:w-2/4 mx-auto text-center space-y-3">
                 <span className="font-bold text-purple-900">FAQ's</span>
