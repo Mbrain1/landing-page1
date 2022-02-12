@@ -17,7 +17,7 @@ const Faq = () => {
 
   return (
      <section className="py-12 relative overflow-hidden" id="faq" >
-         <div className="container space-y-10 relative z-50">
+         <div className="container space-y-10 relative">
 
            <header className="md:w-2/4 mx-auto text-center space-y-3">
                 <span className="font-bold text-purple-900">FAQ's</span>
@@ -26,7 +26,7 @@ const Faq = () => {
            </header>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-                   <div className="flex flex-col items-center justify-center">
+                   <div className="flex flex-col items-center justify-center p-5 ">
                         <img src="/svgs/faq.svg" />   
                    </div>
 

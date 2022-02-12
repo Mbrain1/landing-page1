@@ -23,13 +23,15 @@ const Footer = (props) => {
 
 
   return (
-   <footer className="relative z-[100] bg-gradient-to-r from-purple-900 to-purple-400 text-white ">
+   <footer className="relative z-40 bg-gradient-to-r from-purple-900 to-purple-400 text-white ">
 
-   <img src="images/world-map.png" className="absolute z-10 opacity-10 h-full inset-x-1/4 " />
+   <img src="images/world-map.png" className="absolute z-10 opacity-10 top-1/4 md:top-0 md:h-full md:inset-x-1/4 " />
 
-   <button className="z-50 fixed right-10 bottom-10 h-12 w-12 flex  justify-center items-center rounded-full before:h-10 before:w-10 before:absolute before:bg-[#13131d]  before:rounded-full before:content-['🡡'] before:flex before:justify-center before:items-center before:bg-purple-900" onClick={() => scrollToTop()} style={{background:`conic-gradient(var(--color-primary-alta) ${(scrollY.status/(scrollY.documentHeight - scrollY.windowHeight) )*360}deg, var(--color-primary) ${(scrollY.status/(scrollY.documentHeight - scrollY.windowHeight) )*360}deg)`}}></button>
+   <button className="z-50 fixed right-10 bottom-10 h-12 w-12 flex  justify-center items-center rounded-full before:h-10 before:w-10 before:absolute before:bg-[#13131d]  before:rounded-full  before:bg-purple-900" onClick={() => scrollToTop()} style={{background:`conic-gradient(var(--color-primary-alta) ${(scrollY.status/(scrollY.documentHeight - scrollY.windowHeight) )*360}deg, var(--color-primary) ${(scrollY.status/(scrollY.documentHeight - scrollY.windowHeight) )*360}deg)`}}>
+       <i className="fas fa-chevron-up absolute"></i>
+   </button>
 
-    <div className="container mx-auto grid lg:grid-cols-4 sm:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-6 py-5 relative z-50">
+    <div className="container mx-auto grid lg:grid-cols-4 sm:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-6 py-12 relative z-40">
       
 
               <div className="space-y-3">
@@ -82,7 +84,7 @@ const Footer = (props) => {
 
         <div className="border-t border-gray-400 py-5 ">
                <div className="container">
-                 <div className="text-center text-sm font-light">© MfonAbasi Udobia. All rights reserved</div>
+                 <div className="text-center text-sm font-light">© <a href="https://www.linkedin.com/in/mfonabasi-udobia-a84128217" target="_blank">MfonAbasi Udobia.</a> All rights reserved</div>
 
              </div>
         </div>

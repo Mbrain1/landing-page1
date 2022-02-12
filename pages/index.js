@@ -35,7 +35,7 @@ const Dashboard = () => {
                    </div>
 
 
-                    <div className="flex items-center justify-center order-1 md:order-2 md:p-6 lg:p-12">
+                    <div className="flex items-center justify-center order-1 md:order-2 p-6 lg:p-12">
                       <img src="/images/illu-3.png" className="" />                      
                    </div>
 

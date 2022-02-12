@@ -36,12 +36,12 @@ const Header = (props) => {
 
 
             <ul className={`text-sm font-bold  z-50 w-8/12 bg-white fixed text-black z-[100]   h-screen ${isOpen ? 'top-0 right-0' : 'top-0 -right-full'}`}>
-              <li><a href="#" className="block px-4 py-6 hover:bg-purple-900 hover:text-white">Home</a></li>
-              <li><a href="#" className="block px-4 py-6 hover:bg-purple-900 hover:text-white">About us</a></li>
-              <li><a href="#services" className="block px-4 py-6 hover:bg-purple-900 hover:text-white">Services</a></li>
-              <li><a href="#testimonial" className="block px-4 py-6 hover:bg-purple-900 hover:text-white">Testimonial</a></li>
-              <li><a href="#faq" className="block px-4 py-6 hover:bg-purple-900 hover:text-white">FAQ's</a></li>
-              <li><a href="#contact" className="block px-4 py-6 hover:bg-purple-900 hover:text-white">Contact us</a></li>
+              <li><a href="#" className="block px-4 py-3 hover:bg-purple-900 hover:text-white">Home</a></li>
+              <li><a href="#" className="block px-4 py-3 hover:bg-purple-900 hover:text-white">About us</a></li>
+              <li><a href="#services" className="block px-4 py-3 hover:bg-purple-900 hover:text-white">Services</a></li>
+              <li><a href="#testimonial" className="block px-4 py-3 hover:bg-purple-900 hover:text-white">Testimonial</a></li>
+              <li><a href="#faq" className="block px-4 py-3 hover:bg-purple-900 hover:text-white">FAQ's</a></li>
+              <li><a href="#contact" className="block px-4 py-3 hover:bg-purple-900 hover:text-white">Contact us</a></li>
             </ul>
 
             <div className={`overlay opacity-50 bg-black z-40 fixed w-full left-0 top-0 h-full ${isOpen ? 'block' : 'hidden'}`} onClick={() => closeAllModal()}>

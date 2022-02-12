@@ -2,7 +2,7 @@ const Contact = () => {
 
   return (
      <section className="py-12 relative overflow-hidden bg-gray-50" id="contact" >
-         <div className="container space-y-10 relative z-50">
+         <div className="container space-y-10 relative">
 
            <header className="md:w-2/4 mx-auto text-center space-y-3">
                 <span className="font-bold text-purple-900">NEED HELP</span>
@@ -14,7 +14,7 @@ const Contact = () => {
 
 
                    <div className="col-span-1">
-                        <div className="flex flex-col items-center justify-center  p-6 md:p-10 h-full w-full bg-contact text-white space-y-5">
+                        <div className="flex flex-col items-center justify-center  p-6 md:p-10 bg-contact text-white space-y-5">
                              <h1 className="text-4xl font-bold">Do You Have Any Questions?</h1>
                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>  
